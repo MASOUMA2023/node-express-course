@@ -27,13 +27,14 @@ let item = "Enter something below.";
 // This is just ordinary html with string interpolation.
 const form = () => {
   return `
-  <body>
+  <body style="background-color:#ffcc00;>
   <p>${item}</p>
   <form method="POST">
   <input name="item"></input>
   <button type="submit">Submit</button>
   </form>
   </body>
+  
   `;
 };
 
